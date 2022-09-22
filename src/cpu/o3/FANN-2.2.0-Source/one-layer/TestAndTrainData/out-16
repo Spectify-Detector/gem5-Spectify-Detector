@@ -1,0 +1,54 @@
+Creating network.
+Layer / Neuron 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+L   1 / N   99 AfkkkAblkDkffkcflkkflAfkbABAkDfDDllDkfABDlkfalAfkklkDkDfDfAkADlfDfDkDDlbADfADklblaDlDfkfffbkLJIDIKb..
+L   1 / N  100 .....................................................................................................
+L   2 / N  101 ...................................................................................................Cb
+L   2 / N  102 .....................................................................................................
+Input layer                          :  98 neurons, 1 bias
+  Hidden layer                       :   1 neurons, 1 bias
+Output layer                         :   1 neurons
+Total neurons and biases             : 102
+Total connections                    : 101
+Connection rate                      :   1.000
+Network type                         :   FANN_NETTYPE_LAYER
+Training algorithm                   :   FANN_TRAIN_RPROP
+Training error function              :   FANN_ERRORFUNC_TANH
+Training stop function               :   FANN_STOPFUNC_MSE
+Bit fail limit                       :   0.350
+Learning rate                        :   0.700
+Learning momentum                    :   0.000
+Quickprop decay                      :  -0.000100
+Quickprop mu                         :   1.750
+RPROP increase factor                :   1.200
+RPROP decrease factor                :   0.500
+RPROP delta min                      :   0.000
+RPROP delta max                      :  50.000
+Cascade output change fraction       :   0.010000
+Cascade candidate change fraction    :   0.010000
+Cascade output stagnation epochs     :  12
+Cascade candidate stagnation epochs  :  12
+Cascade max output epochs            : 150
+Cascade min output epochs            :  50
+Cascade max candidate epochs         : 150
+Cascade min candidate epochs         :  50
+Cascade weight multiplier            :   0.400
+Cascade candidate limit              :1000.000
+Cascade activation functions[0]      :   FANN_SIGMOID
+Cascade activation functions[1]      :   FANN_SIGMOID_SYMMETRIC
+Cascade activation functions[2]      :   FANN_GAUSSIAN
+Cascade activation functions[3]      :   FANN_GAUSSIAN_SYMMETRIC
+Cascade activation functions[4]      :   FANN_ELLIOT
+Cascade activation functions[5]      :   FANN_ELLIOT_SYMMETRIC
+Cascade activation functions[6]      :   FANN_SIN_SYMMETRIC
+Cascade activation functions[7]      :   FANN_COS_SYMMETRIC
+Cascade activation functions[8]      :   FANN_SIN
+Cascade activation functions[9]      :   FANN_COS
+Cascade activation steepnesses[0]    :   0.250
+Cascade activation steepnesses[1]    :   0.500
+Cascade activation steepnesses[2]    :   0.750
+Cascade activation steepnesses[3]    :   1.000
+Cascade candidate groups             :   2
+Cascade no. of candidates            :  80
+Testing network.
+SPECTRE test (0.317006, 1.000000) -> -0.903593, should be -1.000000, difference=0.096407
+Cleaning up.

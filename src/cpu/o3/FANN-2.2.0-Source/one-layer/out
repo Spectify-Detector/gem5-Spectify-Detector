@@ -1,0 +1,404 @@
+Creating network.
+Layer / Neuron 01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+L   1 / N   99 bBDDDbBDDaDCCDBCDDDCDbCDabbaDbCbbDDbDDbbbDDBaDbCDDDDbDbDbDaDbbDDbCbDbbDBbaCbbDDBDbaDaCDBCCaDdddbdda..
+L   1 / N  100 .....................................................................................................
+L   2 / N  101 ...................................................................................................dA
+L   2 / N  102 .....................................................................................................
+Input layer                          :  98 neurons, 1 bias
+  Hidden layer                       :   1 neurons, 1 bias
+Output layer                         :   1 neurons
+Total neurons and biases             : 102
+Total connections                    : 101
+Connection rate                      :   1.000
+Network type                         :   FANN_NETTYPE_LAYER
+Training algorithm                   :   FANN_TRAIN_RPROP
+Training error function              :   FANN_ERRORFUNC_TANH
+Training stop function               :   FANN_STOPFUNC_MSE
+Bit fail limit                       :   0.350
+Learning rate                        :   0.700
+Learning momentum                    :   0.000
+Quickprop decay                      :  -0.000100
+Quickprop mu                         :   1.750
+RPROP increase factor                :   1.200
+RPROP decrease factor                :   0.500
+RPROP delta min                      :   0.000
+RPROP delta max                      :  50.000
+Cascade output change fraction       :   0.010000
+Cascade candidate change fraction    :   0.010000
+Cascade output stagnation epochs     :  12
+Cascade candidate stagnation epochs  :  12
+Cascade max output epochs            : 150
+Cascade min output epochs            :  50
+Cascade max candidate epochs         : 150
+Cascade min candidate epochs         :  50
+Cascade weight multiplier            :   0.400
+Cascade candidate limit              :1000.000
+Cascade activation functions[0]      :   FANN_SIGMOID
+Cascade activation functions[1]      :   FANN_SIGMOID_SYMMETRIC
+Cascade activation functions[2]      :   FANN_GAUSSIAN
+Cascade activation functions[3]      :   FANN_GAUSSIAN_SYMMETRIC
+Cascade activation functions[4]      :   FANN_ELLIOT
+Cascade activation functions[5]      :   FANN_ELLIOT_SYMMETRIC
+Cascade activation functions[6]      :   FANN_SIN_SYMMETRIC
+Cascade activation functions[7]      :   FANN_COS_SYMMETRIC
+Cascade activation functions[8]      :   FANN_SIN
+Cascade activation functions[9]      :   FANN_COS
+Cascade activation steepnesses[0]    :   0.250
+Cascade activation steepnesses[1]    :   0.500
+Cascade activation steepnesses[2]    :   0.750
+Cascade activation steepnesses[3]    :   1.000
+Cascade candidate groups             :   2
+Cascade no. of candidates            :  80
+weight from 0 to 99: -0.589070
+weight from 1 to 99: 0.762222
+weight from 2 to 99: 3.041070
+weight from 3 to 99: 3.209756
+weight from 4 to 99: 3.102614
+weight from 5 to 99: -0.612431
+weight from 6 to 99: 0.833411
+weight from 7 to 99: 3.068348
+weight from 8 to 99: 3.073679
+weight from 9 to 99: -0.428938
+weight from 10 to 99: 3.178822
+weight from 11 to 99: 1.683059
+weight from 12 to 99: 1.698856
+weight from 13 to 99: 3.163424
+weight from 14 to 99: 0.904157
+weight from 15 to 99: 1.649168
+weight from 16 to 99: 3.052743
+weight from 17 to 99: 3.063755
+weight from 18 to 99: 3.159458
+weight from 19 to 99: 1.723353
+weight from 20 to 99: 3.091869
+weight from 21 to 99: -0.596077
+weight from 22 to 99: 1.772617
+weight from 23 to 99: 3.050444
+weight from 24 to 99: -0.094850
+weight from 25 to 99: -0.502166
+weight from 26 to 99: -1.200829
+weight from 27 to 99: -0.450453
+weight from 28 to 99: 3.015336
+weight from 29 to 99: -0.522503
+weight from 30 to 99: 1.701492
+weight from 31 to 99: -0.588777
+weight from 32 to 99: -0.511654
+weight from 33 to 99: 3.168868
+weight from 34 to 99: 3.045951
+weight from 35 to 99: -0.624082
+weight from 36 to 99: 3.181410
+weight from 37 to 99: 3.127989
+weight from 38 to 99: -0.570776
+weight from 39 to 99: -1.322931
+weight from 40 to 99: -0.515991
+weight from 41 to 99: 3.033018
+weight from 42 to 99: 3.149412
+weight from 43 to 99: 0.785516
+weight from 44 to 99: -0.458616
+weight from 45 to 99: 3.102196
+weight from 46 to 99: -0.515356
+weight from 47 to 99: 1.577752
+weight from 48 to 99: 3.150908
+weight from 49 to 99: 3.069075
+weight from 50 to 99: 3.168759
+weight from 51 to 99: 3.027735
+weight from 52 to 99: -0.542045
+weight from 53 to 99: 3.167681
+weight from 54 to 99: -0.576880
+weight from 55 to 99: 3.181149
+weight from 56 to 99: -0.549528
+weight from 57 to 99: 3.210241
+weight from 58 to 99: -0.484346
+weight from 59 to 99: 3.090780
+weight from 60 to 99: -0.527304
+weight from 61 to 99: -0.556549
+weight from 62 to 99: 3.126975
+weight from 63 to 99: 3.026030
+weight from 64 to 99: -0.602723
+weight from 65 to 99: 1.716535
+weight from 66 to 99: -0.613095
+weight from 67 to 99: 3.203659
+weight from 68 to 99: -0.569186
+weight from 69 to 99: -0.558898
+weight from 70 to 99: 3.028663
+weight from 71 to 99: 0.916141
+weight from 72 to 99: -0.540923
+weight from 73 to 99: -0.476984
+weight from 74 to 99: 1.772606
+weight from 75 to 99: -0.574566
+weight from 76 to 99: -0.589831
+weight from 77 to 99: 3.123571
+weight from 78 to 99: 3.069507
+weight from 79 to 99: 0.922379
+weight from 80 to 99: 3.177603
+weight from 81 to 99: -0.616793
+weight from 82 to 99: -0.441274
+weight from 83 to 99: 3.060531
+weight from 84 to 99: -0.464155
+weight from 85 to 99: 1.605486
+weight from 86 to 99: 3.026637
+weight from 87 to 99: 0.787634
+weight from 88 to 99: 1.600684
+weight from 89 to 99: 1.725915
+weight from 90 to 99: -0.125128
+weight from 91 to 99: 3.139701
+weight from 92 to 99: -3.194398
+weight from 93 to 99: -3.191112
+weight from 94 to 99: -3.079397
+weight from 95 to 99: -1.305040
+weight from 96 to 99: -3.048271
+weight from 97 to 99: -3.067519
+weight from 98 to 99: -0.073078
+weight from 99 to 101: -3.192484
+weight from 100 to 101: 0.006392
+Testing network.
+SPECTRE test (0.297986, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.246035, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213446, 0.023965) -> -0.920614, should be -1.000000, difference=0.079386
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.407062, 0.607752) -> -0.920523, should be -1.000000, difference=0.079477
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.275979, 0.789744) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.260710, 0.078687) -> -0.920159, should be -1.000000, difference=0.079841
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.215222, 0.861111) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.995090, 0.011797) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.203224, 0.510902) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.290451, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.293078, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.445371, 0.752941) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213734, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217748, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.174962, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.317006, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262828, 0.128936) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.362181, 0.093221) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217415, 0.230441) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.196374, 0.550026) -> -0.920582, should be -1.000000, difference=0.079418
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.769893, 0.269504) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.212153, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.241350, 0.759494) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262649, 0.980582) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.443259, 0.688951) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.297986, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.246035, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213446, 0.023965) -> -0.920614, should be -1.000000, difference=0.079386
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.407062, 0.607752) -> -0.920523, should be -1.000000, difference=0.079477
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.275979, 0.789744) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.260710, 0.078687) -> -0.920159, should be -1.000000, difference=0.079841
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.215222, 0.861111) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.995090, 0.011797) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.203224, 0.510902) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.290451, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.293078, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.445371, 0.752941) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213734, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217748, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.174962, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.317006, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262828, 0.128936) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.362181, 0.093221) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217415, 0.230441) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.196374, 0.550026) -> -0.920582, should be -1.000000, difference=0.079418
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.769893, 0.269504) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.212153, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.241350, 0.759494) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262649, 0.980582) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.443259, 0.688951) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.297986, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.246035, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213446, 0.023965) -> -0.920614, should be -1.000000, difference=0.079386
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.407062, 0.607752) -> -0.920523, should be -1.000000, difference=0.079477
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.275979, 0.789744) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.260710, 0.078687) -> -0.920159, should be -1.000000, difference=0.079841
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.215222, 0.861111) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.995090, 0.011797) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.203224, 0.510902) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.290451, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.293078, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.445371, 0.752941) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213734, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217748, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.174962, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.317006, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262828, 0.128936) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.362181, 0.093221) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217415, 0.230441) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.196374, 0.550026) -> -0.920582, should be -1.000000, difference=0.079418
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.769893, 0.269504) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.212153, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.241350, 0.759494) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262649, 0.980582) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.443259, 0.688951) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.297986, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.246035, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213446, 0.023965) -> -0.920614, should be -1.000000, difference=0.079386
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.407062, 0.607752) -> -0.920523, should be -1.000000, difference=0.079477
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.275979, 0.789744) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.260710, 0.078687) -> -0.920159, should be -1.000000, difference=0.079841
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.215222, 0.861111) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.995090, 0.011797) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.203224, 0.510902) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.290451, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.293078, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.445371, 0.752941) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213734, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217748, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.174962, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.317006, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262828, 0.128936) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.362181, 0.093221) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217415, 0.230441) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.196374, 0.550026) -> -0.920582, should be -1.000000, difference=0.079418
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.769893, 0.269504) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.212153, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.241350, 0.759494) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262649, 0.980582) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.443259, 0.688951) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.297986, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.246035, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213446, 0.023965) -> -0.920614, should be -1.000000, difference=0.079386
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.407062, 0.607752) -> -0.920523, should be -1.000000, difference=0.079477
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.275979, 0.789744) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.260710, 0.078687) -> -0.920159, should be -1.000000, difference=0.079841
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.215222, 0.861111) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.995090, 0.011797) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.203224, 0.510902) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.290451, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.293078, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.445371, 0.752941) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.213734, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217748, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.174962, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.317006, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262828, 0.128936) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.362181, 0.093221) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.217415, 0.230441) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.196374, 0.550026) -> -0.920582, should be -1.000000, difference=0.079418
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.769893, 0.269504) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.212153, 1.000000) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.241350, 0.759494) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.262649, 0.980582) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+SPECTRE test (0.443259, 0.688951) -> -0.920615, should be -1.000000, difference=0.079385
+SPECTRE test (0.614646, 0.353247) -> 0.921584, should be 1.000000, difference=0.078416
+Cleaning up.
